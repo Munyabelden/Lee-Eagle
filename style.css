@@ -1,0 +1,13 @@
+.btn {
+  background: rgb(2, 15, 33);
+  border: none;
+  color: rgb(215, 218, 222);
+}
+
+.hero {
+  background-image: url('./assets/close-up-beautiful-african-woman-enjoying-massage-spa-salon.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 60vh;
+}
