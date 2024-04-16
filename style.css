@@ -10,4 +10,48 @@
   background-position: center;
   background-repeat: no-repeat;
   height: 60vh;
+  padding-top: 15rem;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 800px) {
+  .card {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .cards img {
+    width: 100%;
+    margin: 0;
+  }
+}
+
+i {
+  color: rgb(44, 44, 45);
+  font-size: 25px;
+  transition: all 500ms ease-in-out;
+  -webkit-transition: all 500ms ease-in-out;
+  -moz-transition: all 500ms ease-in-out;
+  -ms-transition: all 500ms ease-in-out;
+  -o-transition: all 500ms ease-in-out;
+}
+
+a:first-child i:hover {
+  color: rgb(212, 140, 7);
+}
+
+a:nth-child(2) i:hover {
+  color: rgb(76, 180, 76);
+}
+
+a:nth-child(3) i:hover {
+  color: rgb(24, 61, 134);
+}
+
+a:last-child i:hover {
+  color: black;
 }
