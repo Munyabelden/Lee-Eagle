@@ -11,12 +11,13 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Custom Styles -->
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="lightbox.css">
 </head>
 <body>
 
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <img src="assets/IMG-20240404-WA0001.jpg" alt="Your Image" class="absolute top-0 left-40 transform -translate-x-1/2 z-50 w-60 h-60">
+        <img src="assets/IMG-20240404-WA0001.jpg" alt="Your Image" class="absolute top-0 left-40 transform -translate-x-1/2 w-60 h-60">
         <div class="container">
             <h1></h1>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -34,6 +35,9 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#contact">Contact</a>
                     </li>
+                    <!-- <li>
+                        <button type="button" id="gallery-btn" class="gallery-btn">Gallery</button>
+                    </li> -->
                 </ul>
             </div>
         </div>
@@ -42,8 +46,8 @@
     <!-- Hero Section -->
     <section class="hero">
         <div class="container text-center">
-            <h1 class="text-4xl font-bold mb-4">Experience Relaxation</h1>
-            <p class="text-lg mb-8">Indulge in our wide range of massage therapies</p>
+            <h1 class="text-5xl font-bold mb-4">Experience Relaxation</h1>
+            <p class="mb-8">Indulge in our wide range of massage therapies</p>
             <a href="#services" class="bg-yellow-800 btn-primary btn font-bold">Explore Services</a>
         </div>
     </section>
@@ -52,8 +56,8 @@
     <section id="about" class="py-20">
         <div class="container">
             <h2 class="text-3xl font-bold mb-8">About Us</h2>
-            <p class="mb-8">Lee Eagle Massage offers a tranquil oasis in the heart of Cape Town, South Africa. With a team of skilled therapists, we provide a range of massage treatments tailored to your needs.</p>
-            <p class="mb-8">Our mission is to promote relaxation, relieve stress, and enhance overall well-being through the power of touch.</p>
+            <p class="mb-8">Lee Eagle Massage offers a serene sanctuary nestled in the vibrant heart of Cape Town, South Africa. Enveloped in tranquility, our oasis is dedicated to revitalizing your body, mind, and spirit. Our team of highly skilled therapists is committed to providing an array of luxurious massage treatments meticulously tailored to meet your individual needs.</p>
+            <p class="mb-8">At Lee Eagle Massage, we are driven by a profound mission to promote profound relaxation, alleviate stress, and elevate your overall well-being through the transformative power of touch. Immerse yourself in our haven of serenity and experience the blissful fusion of expert techniques and nurturing care. Embark on a journey of rejuvenation as we guide you towards optimal health and inner harmony.</p>
         </div>
     </section>
 
@@ -65,52 +69,110 @@
                 <div class="bg-white p-6 rounded-lg shadow-md">
                     <img src="assets/african-girl-woman-couch-lady-beautician.jpg" alt="Massage" class="mb-4">
                     <h3 class="text-xl font-semibold mb-4">Swedish Massage</h3>
-                    <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla maximus
-                        eleifend odio, quis cursus magna.</p>
+                    <p class="mb-4">A classic massage technique involving gentle strokes and kneading to promote relaxation, improve circulation, and alleviate muscle tension.</p>
                     <a href="#" class="btn btn-primary">Book Now</a>
                 </div>
                 <div class="bg-white p-6 rounded-lg shadow-md">
                     <img src="assets/woman-taking-bath-salt-put-some-water-before-taking-bath.jpg" alt="Aromatherapy" class="mb-4">
                     <h3 class="text-xl font-semibold mb-4">Aromatherapy Massage</h3>
-                    <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla maximus
-                        eleifend odio, quis cursus magna.</p>
+                    <p class="mb-4">Combines massage with the therapeutic use of essential oils, enhancing relaxation, reducing stress, and addressing specific health concerns through the inhalation and absorption of aromatic plant extracts.</p>
                     <a href="#" class="btn btn-primary">Book Now</a>
                 </div>
                 <div class="bg-white p-6 rounded-lg shadow-md">
                     <img src="assets/close-up-beautiful-young-woman-receiving-hot-stone-massage.jpg" alt="Hot Stone Massage" class="mb-4">
                     <h3 class="text-xl font-semibold mb-4">Hot Stone Massage</h3>
-                    <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla maximus
-                        eleifend odio, quis cursus magna.</p>
+                    <p class="mb-4">Utilizes smooth, heated stones placed on key points of the body and incorporated into massage strokes, easing muscle stiffness and inducing deep relaxation.</p>
                     <a href="#" class="btn btn-primary">Book Now</a>
                 </div>
                 <!-- Add more services here -->
                 <div class="bg-white p-6 rounded-lg shadow-md">
                     <img src="assets/close-up-beautiful-african-woman-enjoying-massage-spa-salon.jpg" alt="Deep Tissue Massage" class="mb-4">
                     <h3 class="text-xl font-semibold mb-4">Deep Tissue Massage</h3>
-                    <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla maximus
-                        eleifend odio, quis cursus magna.</p>
+                    <p class="mb-4">Targets deeper layers of muscles and connective tissue to release chronic tension, break up scar tissue, and promote healing by applying firm pressure and slow strokes.</p>
                     <a href="#" class="btn btn-primary">Book Now</a>
                 </div>
                 <div class="bg-white p-6 rounded-lg shadow-md">
                     <img src="assets/istockphoto-511362136-612x612.jpg" alt="Sports Massage" class="mb-4">
                     <h3 class="text-xl font-semibold mb-4">Sports Massage</h3>
-                    <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla maximus
-                        eleifend odio, quis cursus magna.</p>
+                    <p class="mb-4">Tailored for athletes to prevent injuries, improve flexibility, and enhance performance, incorporating techniques such as stretching, compression, and trigger point therapy.</p>
                     <a href="#" class="btn btn-primary">Book Now</a>
                 </div>
                 <div class="bg-white p-6 rounded-lg shadow-md">
                     <img src="assets/close-up-feet-young-woman-middle-reflexology-session-health-spa.jpg" alt="Reflexology Massage" class="mb-4">
                     <h3 class="text-xl font-semibold mb-4">Reflexology Massage</h3>
-                    <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla maximus
-                        eleifend odio, quis cursus magna.</p>
+                    <p class="mb-4">Focuses on applying pressure to specific points on the feet, hands, and ears believed to correspond to organs and systems of the body, promoting relaxation, pain relief, and overall well-being.</p>
                     <a href="#" class="btn btn-primary">Book Now</a>
                 </div>
             </div>
         </div>
     </section>
+        <div class="container gallery-container">
+        <h2 class="text-4xl font-bold mb-8">Our Work</h2>
+          <div class="gallery">
+            <!-- <button type="button" id="gallery-btn exit" class="gallery-btn">&times;</button> -->
+            <a href="images/IMG-20240404-WA0002.jpg" data-lightbox="models" data-title="Image 1">
+                <img src="images/IMG-20240404-WA0002.jpg" alt="">
+            </a>
+            <a href="images/IMG-20240404-WA0003.jpg" data-lightbox="models" data-title="Image 2">
+                <img src="images/IMG-20240404-WA0003.jpg" alt="">
+            </a>
+            <a href="images/IMG-20240404-WA0004.jpg" data-lightbox="models" data-title="Image 5">
+                <img src="images/IMG-20240404-WA0004.jpg" alt="">
+            </a>
+            <a href="images/IMG-20240404-WA0005.jpg" data-lightbox="models" data-title="Image 6">
+                <img src="images/IMG-20240404-WA0005.jpg" alt="">
+            </a>
+            <!-- Video 1 -->
+            <a href="images/WhatsApp Video 2024-04-05 at 10.29.19_5cbbda37.mp4" data-lightbox="models" data-title="Image 7">
+              <video controls class="w-full h-auto rounded-lg shadow">
+                <source src="images/WhatsApp Video 2024-04-05 at 10.29.19_5cbbda37.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+            </a>
 
+            <a href="images/VID-20240404-WA0003.mp4" data-lightbox="models" data-title="Image 10">
+              <video controls class="w-full h-auto rounded-lg shadow">
+                <source src="images/VID-20240404-WA0003.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+            </a>
+            
+            <a href="images/IMG-20240404-WA0008.jpg" data-lightbox="models" data-title="Image 11">
+                <img src="images/IMG-20240404-WA0008.jpg" alt="">
+            </a>
+            
+            <a href="images/IMG-20240404-WA0009.jpg" data-lightbox="models" data-title="Image 12">
+                <img src="images/IMG-20240404-WA0009.jpg" alt="">
+            </a>
+            <a href="images/VID-20240404-WA0002.mp4" data-lightbox="models" data-title="Image 13">
+                <video controls class="w-full h-auto rounded-lg shadow">
+                  <source src="images/VID-20240404-WA0002.mp4" type="video/mp4">
+                  Your browser does not support the video tag.
+                </video>
+            </a>
+            <a href="images/VID-20240404-WA0001.mp4" data-lightbox="models" data-title="Image 14">
+                <video controls class="w-full h-auto rounded-lg shadow">
+                  <source src="images/VID-20240404-WA0001.mp4" type="video/mp4">
+                  Your browser does not support the video tag.
+                </video>
+            </a>
+            
+            <a href="images/IMG-20240404-WA0010.jpg" data-lightbox="models" data-title="Image 15">
+                <img src="images/IMG-20240404-WA0010.jpg" alt="">
+            </a>
+            <a href="images/IMG-20240404-WA0006.jpg" data-lightbox="models" data-title="Image 8">
+                <img src="images/IMG-20240404-WA0006.jpg" alt="">
+            </a>
+            
+            <a href="images/IMG-20240404-WA0007.jpg" data-lightbox="models" data-title="Image 9">
+                <img src="images/IMG-20240404-WA0007.jpg" alt="">
+            </a>
+            <!-- Add more videos here -->
+          </div>
+        </div>
+      
     <!-- Contact Section -->
-    <section id="contact" class="py-20">
+    <section id="contact" class="py-20 bg-gray-200">
         <div class="container">
             <h2 class="text-3xl font-bold mb-8">Contact Us</h2>
             <p class="mb-8">Have a question or want to book an appointment? Reach out to us!</p>
@@ -137,5 +199,6 @@
 
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lightbox-plus-jquery.js"></script>
 </body>
 </html>

@@ -4,8 +4,29 @@
   color: rgb(215, 218, 222);
 }
 
-#navbarNav {
+.h3 {
+  font-size: 20px;
+}
+
+.btn:hover {
+  background: rgb(65, 54, 25);
+}
+
+.nav-link {
+  font-weight: 500;
+  font-size: 15px;
+}
+
+p {
+  font-size: 16px;
+}
+
+.navbar-nav {
   z-index: 10000;
+}
+
+.logo {
+  z-index: 1;
 }
 
 .hero {
@@ -15,6 +36,10 @@
   background-repeat: no-repeat;
   height: 60vh;
   padding-top: 15rem;
+}
+
+.hero p {
+  font-weight: 500;
 }
 
 .card {
@@ -58,4 +83,27 @@ a:nth-child(3) i:hover {
 
 a:last-child i:hover {
   color: black;
+}
+
+.gallery-container {
+  margin-top: 60px;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  margin-top: 40px;
+}
+
+.gallery a {
+  margin-inline: 10px;
+  margin-bottom: 10px;
+}
+
+.gallery img {
+  -o-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  border-radius: 5px;
 }
